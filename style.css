@@ -12,12 +12,12 @@
 }
 
 .hero-image {
-    background-image: url("https://images.pexels.com/photos/957040/night-photograph-starry-sky-night-sky-star-957040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("https://images.pexels.com/photos/1086585/pexels-photo-1086585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     min-height: 60vh;
     background-size: cover;
     background-position: bottom center;
 }
 
 .spill {
-    bottom: -40px;
+    bottom: -25px;
 }
