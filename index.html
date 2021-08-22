@@ -35,15 +35,16 @@
 </style>
 
 <body class="">
-
-    <header class="container-fluid bg-primary p-2 text-white">
-        <div class="title ps-3">
-            <h2><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+    <div class="sticky-top">
+        <header class="container-fluid bg-primary p-2 text-white">
+            <div class="title ps-3">
+                <h2><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
                 <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
                 <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
               </svg> Lorem Ipsum</h2>
-        </div>
-    </header>
+            </div>
+        </header>
+    </div>
 
     <main>
 
@@ -83,7 +84,7 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <div class="border-start border-5 border-primary text-white ps-2 mt-5">
+                        <div id="my-content" class="border-start border-5 border-primary text-white ps-2 mt-5 ">
                             <h1>Text over an image</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nostrum cupiditate enim culpa, ea placeat!</p>
                         </div>
@@ -101,7 +102,7 @@
                 </div>
                 <div class="col-lg-6">
                     <!-- putt spill back into class below -->
-                    <div class="card bg-light m-3 shadow">
+                    <div id="card-content" class="card bg-light m-3 shadow">
                         <!-- class below contains all text in card -->
                         <div class="p-3">
                             <h5 class="pb-2"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-tsunami" viewBox="0 0 16 16">
@@ -155,7 +156,7 @@
                         <h6 class="text-success">Lorem ipsum dolor sit amet.</h6>
                     </div>
                 </div>
-                <div class="col-lg-4 p-3">
+                <div id="emphasize" class="col-lg-4 p-3">
                     <div class="card text-center m-2 p-3 shadow">
                         <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
                             <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>

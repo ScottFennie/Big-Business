@@ -18,11 +18,22 @@
     background-position: bottom center;
 }
 
-.spill {
-    bottom: -35px;
-}
-
 .ocean-pic {
     height: 250px;
     width: 250px;
+}
+
+@media only screen and (max-width: 992px) {
+    #my-content {
+        display: none;
+    }
+    #emphasize {
+        order: -1;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #card-content {
+        bottom: -35px;
+    }
 }
