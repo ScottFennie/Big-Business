@@ -1,3 +1,11 @@
+:root {
+    --darkpurple: #0C0032;
+    --darkblue: #190061;
+    --blue: #240090;
+    --lightblue: #3500D3;
+    --grey: #0B0E10;
+}
+
 .header-elem {
     height: 150px
 }
@@ -11,16 +19,32 @@
     border-color: green;
 }
 
+.background-color {
+    background-color: black;
+}
+
+.section-color {
+    background-color: var(--grey);
+}
+
+.card-color {
+    background-color: var(--lightblue);
+}
+
+.cardtext-color {
+    color: var(--lightblue);
+}
+
 .hero-image {
-    background-image: url("https://images.pexels.com/photos/1086585/pexels-photo-1086585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     min-height: 60vh;
     background-size: cover;
-    background-position: bottom center;
+    background-position: top center;
 }
 
 .ocean-pic {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 300px;
 }
 
 @media only screen and (max-width: 992px) {
