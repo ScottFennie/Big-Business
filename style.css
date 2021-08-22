@@ -27,7 +27,7 @@
     #my-content {
         display: none;
     }
-    #emphasize {
+    .emphasize {
         order: -1;
     }
 }
