@@ -57,7 +57,19 @@
 }
 
 @media only screen and (min-width: 992px) {
-    #card-content {
-        bottom: -35px;
+    .spill {
+        bottom: -40px;
     }
+}
+
+.opacity {
+    opacity: 0.75;
+}
+
+.card-w {
+    max-width: 350px;
+}
+
+.header-text {
+    font-family: 'Suez One', serif;
 }
